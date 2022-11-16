@@ -1,0 +1,181 @@
+
+@font-face{
+    font-family: Work Sans;
+    src: url("/assets//WorkSans-VariableFont_wght.ttf");
+}
+body{
+    font-family:Work Sans;
+    margin: 0;
+}
+
+.text--font-24px{
+    font-size: 24px;
+}
+
+.text--font-18px{
+    font-size: 18px;
+}
+
+.text--c-river-bed{
+    color: #4B5563;
+}
+
+.bg--white{
+    background-color: #FFFFFF;
+}
+
+.bg--wild-sand{
+    background-color: #F5F5F5;
+}
+
+.bg--cornflower-blue{
+    background-color: #6366F1;
+}
+
+.bg--french-rose{
+    background-color: #EC4899;
+}
+
+.bg--ebony{
+    background-color: #111827;
+}
+
+.bg--gray-chateau{
+    background-color: #9CA3AF;
+}
+
+/*styles*/
+
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    width: calc(100% - 160px);
+}
+
+.parent{
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.first-section{
+    flex:0 0 calc(100% - 32px - 406px);
+}
+
+.first-section__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section__item{
+    flex:0 0 calc((100% - 32px)/2);
+}
+
+.first-section__image{
+    height: 100%;
+    width: 100%;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 406px;
+}
+
+.second-section__heading--gap{
+    margin: 8px 0 12px 0;
+}
+
+.second-section__price{
+    text-decoration: none;
+}
+
+.second-section__c-list{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.second-section__button-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.second-section__button-item{
+    flex: 0 0 calc((100% - 10px)/2);
+}
+
+.second-section__item--add{
+    flex: 0 0 100%;
+}
+
+.second-section__btn{
+    align-items: center;
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    padding: 16px;
+    width: 100%;
+}
+
+.second-section__desc{
+    line-height: 150%;
+}
+
+.second-section__btn--color{
+    color: #FFFFFF;
+}
+
+.second-section__colours{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.second-section__c-text{
+    border-bottom: 1px solid #E5E7EB;
+    border-top: 1px solid #E5E7EB;
+    padding: 16px 32px 16px 0;
+}
+
+.second-section__c-item{
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+}
+
+.second-section__product-info{
+    margin-bottom: 0;
+}
+
+.second-section__address a{
+    text-decoration: none;
+}
+
+dl{
+    margin-top: 24px;
+}
+
+dd,dt{
+    display: inline;
+    line-height: 32px;
+    margin: 0;
+}
+
+dd::after{
+    content: '\a';
+    white-space: pre;
+}
+
+.second-section__contact{
+    margin: 32px 0 24px 0;
+}
